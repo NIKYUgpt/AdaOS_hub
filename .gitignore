@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+*.egg
+*.log
+
+# Virtualenv
+venv/
+env/
+ENV/
+.venv/
+
+# VSCode/IDE
+.vscode/
+.idea/
+*.swp
+
+# SQLite DB
+*.db
+*.sqlite3
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Uvicorn reload cache
+*.reload
+
+# Jupyter Notebooks (если вдруг появятся)
+.ipynb_checkpoints/
+
+# Tests cache
+.pytest_cache/
+coverage.xml
+htmlcov/
+.cache/
